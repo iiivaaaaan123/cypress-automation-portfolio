@@ -21,7 +21,6 @@ cypress/
     examples/
       BDD/
         ecommerceE2E.feature    # Gherkin feature file
-        ecommerce/              # (optional) Additional BDD features
   support/
     pageObjects/                # Page Object classes
     step_definitions/           # Step definition files
