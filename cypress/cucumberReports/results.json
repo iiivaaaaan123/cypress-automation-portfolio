@@ -1,0 +1,475 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-ecommerce-validation;ecommerce-products-delivery",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Ecommerce products delivery",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Ecommerce Page",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login to the application",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I add items to Cart and checkout",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Validate the total price limit",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Select the country submit and verify Thank you",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5423000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-ecommerce-validation;ecommerce-products-delivery-cucumber-driven",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Ecommerce products delivery cucumber driven",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I am on Ecommerce Page",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 691000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "rahulshettyacademy",
+                      "learning"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I login to the application portal",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I add items to Cart and checkout",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Validate the total price limit",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Select the country submit and verify Thank you",
+            "match": {
+              "location": "cypress/integration/examples/BDD/ecommerce/eCommerceStepDef.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5419000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "end-to-end-ecommerce-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "End to End ecommerce validation",
+    "tags": [],
+    "uri": "cypress\\integration\\examples\\BDD\\ecommerce.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-signup-and-login;successful-user-signup",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful user signup",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the signup page",
+            "match": {
+              "location": "cypress/support/step_definitions/signupStepDef.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill the signup form with valid details",
+            "match": {
+              "location": "cypress/support/step_definitions/signupStepDef.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "My account should be created successfully",
+            "match": {
+              "location": "cypress/support/step_definitions/signupStepDef.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3088000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-signup-and-login;login-and-logout-successfully",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login and logout successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am on the login page",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be able to logout successfully",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-signup-and-login;login-with-incorrect-credentials-and-signup-with-existing-email",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Login with incorrect credentials and signup with existing email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I am on the login page",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I try to login with invalid credentials \"victor3.ivanvelasquez@gmail.com\" and \"#HimikoToga1335\"",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the login error message \"Your email or password is incorrect!\"",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I try to login with invalid credentials \"victor2.ivanvelasquez@gmail.com\" and \"#HimikoToga1336\"",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the login error message \"Your email or password is incorrect!\"",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I try to signup with existing email \"Ivan G\" and \"victor3.ivanvelasquez@gmail.com\"",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1969000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should see the signup error message \"Email Address already exist!\"",
+            "match": {
+              "location": "cypress/support/step_definitions/loginStepDef.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeLoginSignup",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-signup-and-login;submit-contact-us-form-successfully",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Submit Contact Us form successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I am on the contact us page",
+            "match": {
+              "location": "cypress/support/step_definitions/contactUsStepDef.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I fill the contact form with valid details",
+            "match": {
+              "location": "cypress/support/step_definitions/contactUsStepDef.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should be redirected to the home page",
+            "match": {
+              "location": "cypress/support/step_definitions/contactUsStepDef.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17544000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ContactUs",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-signup-and-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Signup and Login",
+    "tags": [],
+    "uri": "cypress\\integration\\examples\\BDD\\ecommerceE2E.feature"
+  }
+]

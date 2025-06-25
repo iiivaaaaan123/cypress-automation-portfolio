@@ -1,0 +1,38 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "username": "helloworld",
+  "password": "learning",
+  "productName": "Nokia Edge",
+  "country": "Philippines",
+  "contactUs": {
+    "name": "Ivan G",
+    "email": "victor3.ivanvelasquez@gmail.com",
+    "subject": "How to Order in bulk",
+    "message": "I want to order in bulk, how can I do that?"
+  },
+  "signup": {
+    "name": "Ivan V",
+    "password": "#HimikoToga1334",
+    "dob": { "day": "10", "month": "8", "year": "2000" },
+    "firstName": "Ivan",
+    "lastName": "Velasquez",
+    "company": "ABC",
+    "address": "119 M.L Quezon St.",
+    "address2": "Brgy. San Martin",
+    "country": "Australia",
+    "state": "State 1",
+    "city": "City 2",
+    "zipcode": "1900",
+    "mobile": "09671307199"
+  },
+  "login": {
+    "validEmail": "victor3.ivanvelasquez@gmail.com",
+    "validPassword": "#HimikoToga1334",
+    "invalidEmail1": "victor3.ivanvelasquez@gmail.com",
+    "invalidPassword1": "#HimikoToga1335",
+    "invalidEmail2": "victor2.ivanvelasquez@gmail.com",
+    "invalidPassword2": "#HimikoToga1336"
+  }
+}
