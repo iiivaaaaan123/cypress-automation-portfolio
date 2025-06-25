@@ -932,7 +932,7 @@ body.darkmode .navbar-text {
         <tr>
             <td class="chart">
                 <canvas id="scenario-chart"></canvas>
-                <div class="total">2</div>
+                <div class="total">4</div>
             </td>
             <td>
                 <table class="tile_info">
@@ -943,7 +943,7 @@ body.darkmode .navbar-text {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">100.00 %</td>
+                        <td class="percentage">25.00 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -957,6 +957,16 @@ body.darkmode .navbar-text {
                     
                     </tr>
                     
+                    
+                    <tr>
+                        <td>
+                            <p data-bs-toggle="tooltip" data-placement="left" title="Scenario is skipped">
+                                <i class="fa fa-arrow-circle-right skipped-color"></i>
+                                Skipped
+                            </p>
+                        </td>
+                        <td class="percentage">75.00 %</td>
+                    </tr>
                     
                 </table>
             </td>
@@ -1066,6 +1076,8 @@ body.darkmode .navbar-text {
                         <th>Passed</th>
                         <th>Failed</th>
                         
+                        <th>Skip</th>
+                        
                         
                         
                         
@@ -1076,7 +1088,7 @@ body.darkmode .navbar-text {
                     
                     <tr>
                         <td>
-                            <a href="features/c816631b-ea81-4121-80dd-06f23a296146-end-to-end-ecommerce-validation.html">End to End ecommerce validation</a>
+                            <a href="features/516e770f-22cf-4410-a197-e5bec0b0c4f8-user-signup-and-login.html">User Signup and Login</a>
                         </td>
                         <td class="text-center">
                             
@@ -1096,9 +1108,21 @@ body.darkmode .navbar-text {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             <i class="fa fa-tags fa-lg" data-bs-toggle="tooltip" data-placement="top"
-                               title="@Regression @Smoke">
-                                <span>@Regression @Smoke</span>
+                               title="@Signup @Login @NegativeLoginSignup @ContactUs">
+                                <span>@Signup @Login @NegativeLoginSignup @ContactUs</span>
                             </i>
                             
                             
@@ -1161,9 +1185,11 @@ body.darkmode .navbar-text {
                         
                         
                         
-                        <td class="text-right ">2</td>
-                        <td class="text-right ">2</td>
+                        <td class="text-right ">4</td>
+                        <td class="text-right ">1</td>
                         <td class="text-right none">0</td>
+                        
+                        <td class="text-right ">3</td>
                         
                         
                         
@@ -1276,10 +1302,10 @@ body.darkmode .navbar-text {
                         ],
                         datasets: [{
                             data: [
-                                2,
+                                1,
                                 0,
                                 0,
-                                0,
+                                3,
                                 0,
                                 0
                             ],
