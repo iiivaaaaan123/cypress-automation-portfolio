@@ -25,10 +25,7 @@ module.exports = defineConfig({
   defaultCommandTimeout: 6000,
 
   env: {
-    url: "https://rahulshettyacademy.com",
-    nopURL: "https://demo.nopcommerce.com/",
-    username_nopdemo: "victor1.ivanvelasquez@gmail.com",
-    password_nopdemo: "#HimikoToga1334"
+    url: "https://www.automationexercise.com/",
   },
   reporter: 'cypress-mochawesome-reporter',
 

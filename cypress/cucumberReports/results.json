@@ -18,8 +18,8 @@
               "location": "cypress/support/step_definitions/signupStepDef.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 5063000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -31,8 +31,8 @@
               "location": "cypress/support/step_definitions/signupStepDef.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 10845000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -44,8 +44,8 @@
               "location": "cypress/support/step_definitions/signupStepDef.js:38"
             },
             "result": {
-              "status": "passed",
-              "duration": 8321000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -270,6 +270,87 @@
           {
             "name": "@ContactUs",
             "line": 25
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-signup-and-login;view-test-steps-in-test-cases-page",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "View test steps in Test Cases page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I am on the Automation Exercise home page",
+            "match": {
+              "location": "cypress/support/step_definitions/testCasesStepDef.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7027000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I navigate to the Test Cases page",
+            "match": {
+              "location": "cypress/support/step_definitions/testCasesStepDef.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I should see the Test Steps section",
+            "match": {
+              "location": "cypress/support/step_definitions/testCasesStepDef.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I expand the second test step panel",
+            "match": {
+              "location": "cypress/support/step_definitions/testCasesStepDef.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see the Launch browser step",
+            "match": {
+              "location": "cypress/support/step_definitions/testCasesStepDef.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestCases",
+            "line": 31
           }
         ],
         "type": "scenario"

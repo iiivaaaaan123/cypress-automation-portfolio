@@ -27,3 +27,11 @@ Feature: User Signup and Login
     Given I am on the contact us page
     When I fill the contact form with valid details
     Then I should be redirected to the home page
+
+  @TestCases
+  Scenario: View test steps in Test Cases page
+    Given I am on the Automation Exercise home page
+    When I navigate to the Test Cases page
+    Then I should see the Test Steps section
+    When I expand the second test step panel
+    Then I should see the Launch browser step
