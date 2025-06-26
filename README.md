@@ -8,6 +8,7 @@ This project demonstrates end-to-end automation using [Cypress](https://www.cypr
 - User Signup and Login scenarios
 - Negative login and signup validation
 - Contact Us form submission
+- Verify Test Case page
 - Data-driven testing using fixtures
 - Page Object Model for maintainable code
 
