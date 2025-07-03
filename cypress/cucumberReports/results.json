@@ -18,8 +18,8 @@
               "location": "cypress/support/step_definitions/signupStepDef.js:6"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 8364000000
             }
           },
           {
@@ -31,8 +31,8 @@
               "location": "cypress/support/step_definitions/signupStepDef.js:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9266000000
             }
           },
           {
@@ -44,8 +44,8 @@
               "location": "cypress/support/step_definitions/signupStepDef.js:38"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4354000000
             }
           }
         ],
@@ -73,8 +73,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4405000000
             }
           },
           {
@@ -86,8 +86,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4014000000
             }
           },
           {
@@ -99,8 +99,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:22"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1550000000
             }
           }
         ],
@@ -128,8 +128,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3280000000
             }
           },
           {
@@ -141,8 +141,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:28"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1604000000
             }
           },
           {
@@ -154,8 +154,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 17000000
             }
           },
           {
@@ -167,8 +167,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:28"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1802000000
             }
           },
           {
@@ -180,8 +180,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 20000000
             }
           },
           {
@@ -193,8 +193,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:36"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1853000000
             }
           },
           {
@@ -206,8 +206,8 @@
               "location": "cypress/support/step_definitions/loginStepDef.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 32000000
             }
           }
         ],
@@ -235,8 +235,8 @@
               "location": "cypress/support/step_definitions/contactUsStepDef.js:6"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4678000000
             }
           },
           {
@@ -248,8 +248,8 @@
               "location": "cypress/support/step_definitions/contactUsStepDef.js:12"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1890000000
             }
           },
           {
@@ -261,8 +261,8 @@
               "location": "cypress/support/step_definitions/contactUsStepDef.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2457000000
             }
           }
         ],
@@ -291,7 +291,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7027000000
+              "duration": 2695000000
             }
           },
           {
@@ -304,7 +304,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 648000000
+              "duration": 909000000
             }
           },
           {
@@ -317,7 +317,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 19000000
             }
           },
           {
@@ -330,7 +330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 101000000
+              "duration": 118000000
             }
           },
           {
@@ -343,7 +343,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 42000000
             }
           }
         ],
