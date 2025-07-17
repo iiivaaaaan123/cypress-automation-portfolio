@@ -35,3 +35,9 @@ Feature: User Signup and Login
     Then I should see the Test Steps section
     When I expand the second test step panel
     Then I should see the Launch browser step
+
+  @Product
+  Scenario: View details of the product
+    Given I am on the products page
+    When I select the third product
+    Then I should see the product details for Blue Top
